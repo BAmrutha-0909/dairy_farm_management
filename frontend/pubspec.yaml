@@ -1,0 +1,34 @@
+name: diary_farming
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.8
+  fl_chart: ^1.1.1
+
+  http: ^1.2.0
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  collection: ^1.15.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/paw.png
+    - assets/milk.png
+    - assets/scale.png
+    - assets/vaccine.png
+    - assets/welcome.png
